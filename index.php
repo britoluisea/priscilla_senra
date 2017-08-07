@@ -1,9 +1,8 @@
 <?php include"head.php"; ?>
-<body>
 <?php include"nav.php"; ?>
 <?php include"header.php"; ?>
-
     <!-- Page Content -->
+  <section>
     <div class="container">
         <!-- Marketing Icons Section -->
         <div class="row">
@@ -14,6 +13,7 @@
             </div>
         </div> 
     </div>
+  </section>
 
 
 <?php include"food.php"; ?> 

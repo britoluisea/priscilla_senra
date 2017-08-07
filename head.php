@@ -1,3 +1,4 @@
+<?php include"varRutas.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +9,9 @@
     <meta name="author" content="">
     <title>pirscilla senra</title>
     <!-- Bootstrap Core CSS -->
-    <link href="userfiles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=CSS?>bootstrap.min.css" rel="stylesheet">
     <!-- Custom Fonts -->
-    <link href="userfiles/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?=FONT_AWESOME?>font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="<?=CSS?>styles.css" rel="stylesheet" type="text/css">
 </head>
+<body>
