@@ -24,6 +24,12 @@
                     $(this).find('.icon-spec').html("+");
                  }
                 });
+                $( ".btn-contact" ).click(function(event) {
+                    event.preventDefault()
+                  $( ".form_contacts" ).toggle( "slow", function() {
+                    // Animation complete.
+                  });
+                });
             });
     </script>
 </body>

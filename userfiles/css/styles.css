@@ -236,7 +236,7 @@ a:hover{
     right: -3px;
     z-index: 1;
 }
-.btn-contact, .btn-contact:hover{
+a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active{
     width: 55px;
     padding: 0px 20px;
     height: 199px;
@@ -251,11 +251,14 @@ a:hover{
     color: #fff;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+    text-decoration: none;
 }
+
 .form_contacts{
     display: none;
     background: #fff;
-}
-.open-form_contacts{
-    display: ;
+    padding: 20px;
+    width: 265px;
+    border: 1px solid #ccc;
+
 }

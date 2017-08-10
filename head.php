@@ -24,12 +24,27 @@
  <a class="btn-contact" href="#">Сontact Us</a>
   <div class="form_contacts">
   <form action="" method="POST" role="form">
-   <legend>Form title</legend>
    <div class="form-group">
-    <label for="">label</label>
-    <input type="text" class="form-control" id="" placeholder="Input field">
+    <label for="">First Name<span>*</span></label>
+    <input type="text" class="form-control" id="" placeholder="First Name">
    </div>
-   <button type="submit" class="btn btn-ps">Submit</button>
+   <div class="form-group">
+    <label for="">Last Name<span>*</span></label>
+    <input type="text" class="form-control" id="" placeholder="Last Name">
+   </div>
+   <div class="form-group">
+    <label for="">Phone Number<span>*</span></label>
+    <input type="text" class="form-control" id="" placeholder="Last Name">
+   </div>
+   <div class="form-group">
+    <label for="">Email<span>*</span></label>
+    <input type="text" class="form-control" id="" placeholder="Last Name">
+   </div>
+   <div class="form-group">
+    <label for="">Mesagge<span>*</span></label>
+    <textarea class="form-control" id="" placeholder="Mesagge"></textarea>
+   </div>
+   <button type="submit" class="btn btn-success btn-sm" style="width: 100%;padding-top:5px ;padding-bottom:5px ;">Submit</button>
   </form>
   </div>
 </div>
