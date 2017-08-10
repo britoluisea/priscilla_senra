@@ -228,3 +228,34 @@ a:hover{
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+.rightForm{
+    line-height: 1; 
+    position: fixed; 
+    height: 22px; 
+    top: 150px; 
+    right: -3px;
+    z-index: 1;
+}
+.btn-contact, .btn-contact:hover{
+    width: 55px;
+    padding: 0px 20px;
+    height: 199px;
+    display: block;
+    text-indent: 50px;
+    font-size: 24px;
+    outline: none;
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    background: #5cbb47;
+    color: #fff;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.form_contacts{
+    display: none;
+    background: #fff;
+}
+.open-form_contacts{
+    display: ;
+}
