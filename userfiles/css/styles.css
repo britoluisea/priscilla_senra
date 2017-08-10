@@ -262,3 +262,44 @@ a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active{
     border: 1px solid #ccc;
 
 }
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 20px;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #5cbb47;
+}
+.navbar-inverse .navbar-toggle:focus .icon-bar, .navbar-inverse .navbar-toggle:hover .icon-bar{
+    background-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #5cbb47;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+    margin-left: -15px;
+    min-height: 85px;
+}
+@media (max-width: 1190px){
+    header.carousel {
+    height: 75%;
+    }
+}
+@media (max-width: 767px){
+    .navbar-brand img {
+        width: 200px;
+    }
+    header.carousel {
+    height: 90%;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    .panel-default>.panel-heading img{
+        width: 100%;
+        max-width: 250px;
+        margin: 0px auto;
+    }
+}
