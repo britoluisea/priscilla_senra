@@ -177,15 +177,9 @@ a:hover{
     margin-bottom: 10px;
 }
 
-.btn-ps.focus,.btn-ps:focus {
-    color: #fff;
-    background-color: #225d46;
-    border-color: #225d46;
-}
-
-.btn-ps:hover {
-    color: #fff;
-    background-color: #225d46;
+.btn-ps:focus, .btn-ps:hover {
+    color: #000;
+    background-color: #fff;
     border-color: #225d46;
 }
 /* Sweep To Right */
@@ -209,7 +203,7 @@ a:hover{
   left: 0;
   right: 0;
   bottom: 0;
-  background: #973279;
+  background: #0b6e45;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -247,7 +241,7 @@ a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active{
     position: absolute;
     top: 0px;
     left: -55px;
-    background: #5cbb47;
+    background: #0b6e45;
     color: #fff;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
