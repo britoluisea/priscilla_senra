@@ -292,4 +292,34 @@ a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active{
         max-width: 250px;
         margin: 0px auto;
     }
+    a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active
+    {
+        opacity: 0.4;
+        width: 40px;
+        padding: 0px 10px;
+        height: 130px;
+        text-indent: 20px;
+        font-size: 18px;
+        left: -45px;
+    }
+    a.btn-contact:hover
+    {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 400px){
+    header h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    header p {
+        font-size: 16px;
+    }
+    h1.page-header {
+        font-size: 30px;
+    }
+    .text-description {
+        font-size: 18px;
+    }
 }
