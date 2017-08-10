@@ -57,7 +57,7 @@ nav{
     	line-height: 20px;
 }
 header.carousel {
-   height: 60%;
+   height: 80%;
 }
 header.carousel .fill {
     width: 100%;
@@ -282,11 +282,7 @@ a.btn-contact, a.btn-contact:hover,  a.btn-contact:focus,  a.btn-contact:active{
     margin-left: -15px;
     min-height: 85px;
 }
-@media (max-width: 1190px){
-    header.carousel {
-    height: 75%;
-    }
-}
+
 @media (max-width: 767px){
     .navbar-brand img {
         width: 200px;
