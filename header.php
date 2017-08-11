@@ -8,7 +8,7 @@
                 <div class="carousel-caption">
                     <h1>Deregulated Energy Markets</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat a explicabo odit. Nam tempora atque sed sequi obcaecati laboriosam dolorem alias, illo perferendis, rem asperiores distinctio eos accusantium facere at!</p>
-                    <a href="#" class="btn btn-success">READ MORE</a>
+                    <a href="#" class="btn btn-success hvr-grow-shadow">READ MORE</a>
                 </div>
             </div>
         </div>

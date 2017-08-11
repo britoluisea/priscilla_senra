@@ -18,10 +18,10 @@
     <link href="<?=CSS?>styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div class="ir-arriba" style="display: block;"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></div>
+<div class="ir-arriba hvr-sweep-to-top" style="display: block;"><i class="fa fa-angle-up fa-2x" aria-hidden="true"></i></div>
 
 <div class="rightForm" style="">
- <a class="btn-contact" href="#">Сontact Us</a>
+ <a class="btn-contact hvr-icon-wobble-horizontal " href="#">Сontact Us</a>
   <div class="form_contacts">
   <form action="" method="POST" role="form">
    <div class="form-group">
