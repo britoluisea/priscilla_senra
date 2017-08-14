@@ -9,28 +9,28 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"><img src="<?=IMG?>logo.png" alt="logo" class="img-responsive"></a>
+                <a class="navbar-brand" href="<?=URL_INDEX?>"><img src="<?=IMG?>logo.png" alt="logo" class="img-responsive"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="to-bottom">
-                        <a href="about.html">About</a>
+                    <li class="">
+                        <a href="page.php">About</a>
                     </li>
                     <li>
-                        <a href="services.html">Services</a>
+                        <a href="#">Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="portfolio-1-col.html">1 Column Portfolio</a>
+                                <a href="#">1 Column Portfolio</a>
                             </li>
                             <li>
-                                <a href="portfolio-2-col.html">2 Column Portfolio</a>
+                                <a href="#">2 Column Portfolio</a>
                             </li>
                         </ul>
                     </li>

@@ -1,4 +1,6 @@
-<?php 
+<?php
+define('URL_INDEX', '/priscilla_senra/index.php');
+define('FILE_PATH', $_SERVER['PHP_SELF']);
 define('USERFILES', 'userfiles/');
 define('IMG', USERFILES.'img/');
 define('JS', USERFILES.'js/');

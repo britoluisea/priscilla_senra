@@ -1,5 +1,7 @@
-
-    <!-- Header Carousel -->
+<?php
+if( FILE_PATH ==   URL_INDEX  )
+{ ?>
+        <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -12,4 +14,28 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> <?php
+}
+else //header de pages internas
+{  ?>
+  <!-- banner -->
+  <header  id="page-interna" style="
+  background-image:url('<?=IMG?>s1.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding:150px;
+  ">
+  </header>
+  <?php if(isset($share_fb))
+  { ?>
+    <div class="container">
+      <div class="col-md-12" style="margin:20px 0px;">
+         <?=$share_fb; ?>
+      </div>
+    </div>
+    <?php
+  }
+}
+//echo FILE_PATH ." ==  ". URL_INDEX;
+?>

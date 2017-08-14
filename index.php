@@ -110,5 +110,27 @@
             </div>
     </div>
   </section>
+       <!-- testimonios -->
+  <section id="testimonios"  style="background-image:url('<?=IMG?>s1.jpg');">
 
+    <div id="" class="testimonios slide">
+
+     <div class="container">
+          <h1 class="page-header page-headerFFF">
+          Testimonials
+          </h1>
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" style="padding: 400px 0px 0px 0px;">
+             <div class="item active">
+                 <div class="fill" ></div>
+                 <div class="carousel-caption">
+                     <img src="<?=IMG?>avatar.jpg" alt="icon" style="height:150px; margin:0px auto;" class="img-responsive img-circle">
+                     <h3>Omar Calderon  - Lima LI</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat a explicabo odit. Nam tempora atque sed sequi obcaecati laboriosam dolorem alias, illo perferendis, rem asperiores distinctio eos accusantium facere at!</p>
+                 </div>
+             </div>
+         </div>
+      </div>
+    </div>
+  </section>
 <?php include"food.php"; ?> 
